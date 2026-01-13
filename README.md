@@ -48,11 +48,9 @@ This project presents a **Unified AI Finance Engine** that bridges the gap betwe
 
 ## 📸 Visualizing the Intelligence
 
-> **[INSERT_SCREENSHOT_OF_DASHBOARD_HERE]**
-> *Figure 1: Unified Stakeholder Dashboard showing Real-time Risk Metrics.*
+![Project Dashboard](images/AI-Finance_Dashboard.png)
 
-> **[INSERT_SCREENSHOT_OF_SHAP_PLOT_HERE]**
-> *Figure 2: SHAP Waterfall Plot explaining a specific Loan Rejection (RegTech Compliance).*
+![Nifty Features](images/cd521fed-4f91-4d9c-b202-0b480a6150ad.png)
 
 ---
 
@@ -62,7 +60,7 @@ This system is containerized for instant deployment. Ensure you have **Docker De
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/[YOUR_USERNAME]/AI-Finance-Credit-Risk.git
+   git clone https://github.com/AnasSayed27/AI-Finance-Enterprise.git
    cd AI-Finance-Credit-Risk
 
 2. **Deploy the Microservices:**
@@ -83,4 +81,4 @@ This system is containerized for instant deployment. Ensure you have **Docker De
 Focused on the intersection of Quantitative Finance and Scalable AI Infrastructure.
 This project represents a commitment to building transparent, robust, and economically sound financial technology.  
 
-**Connect with me:** [LinkedIn Link] | [Twitter/Portfolio Link]  
+**Connect with me:** [LinkedIn](https://www.linkedin.com/in/soberhuman/) | [Portfolio](https://anassayed27.github.io/)
