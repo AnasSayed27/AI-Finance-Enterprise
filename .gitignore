@@ -1,0 +1,7 @@
+AI-Finance_venv/
+.env
+
+__pycache__/
+*.py[cod]
+
+archive/
