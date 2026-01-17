@@ -1,21 +1,25 @@
 services:
+  # 1. The Backend API
   - type: web
     name: ai-finance-api
     env: docker
+    dockerContext: .
     dockerfilePath: Dockerfile.api
     plan: free
     region: singapore
     healthCheckPath: /health
 
+  # 2. The Frontend UI
   - type: web
     name: ai-finance-ui
     env: docker
+    dockerContext: .
     dockerfilePath: Dockerfile.ui
     plan: free
     region: singapore
     envVars:
-      - key: API_URL
+      - key: API_HOST
         fromService:
           type: web
           name: ai-finance-api
-          property: url
+          property: host
