@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ai-finance-api
+    env: docker
+    dockerFilePath: Dockerfile.api
+    plan: free
+    region: singapore
+    healthCheckPath: /health
+
+  - type: web
+    name: ai-finance-ui
+    env: docker
+    dockerFilePath: Dockerfile.ui
+    plan: free
+    region: singapore
+    envVars:
+      - key: API_URL
+        fromService:
+          type: web
+          name: ai-finance-api
+          property: url
