@@ -2,7 +2,7 @@ services:
   - type: web
     name: ai-finance-api
     env: docker
-    dockerFilePath: Dockerfile.api
+    dockerfilePath: Dockerfile.api
     plan: free
     region: singapore
     healthCheckPath: /health
@@ -10,7 +10,7 @@ services:
   - type: web
     name: ai-finance-ui
     env: docker
-    dockerFilePath: Dockerfile.ui
+    dockerfilePath: Dockerfile.ui
     plan: free
     region: singapore
     envVars:
