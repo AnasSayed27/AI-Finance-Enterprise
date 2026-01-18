@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import os
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000/predict-credit-risk")
+API_URL = "http://127.0.0.1:8000/predict-credit-risk"
 
 st.set_page_config(page_title="FinTech AI Decision Portal", layout="centered")
 
