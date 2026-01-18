@@ -46,6 +46,18 @@ This project presents a **Unified AI Finance Engine** that bridges the gap betwe
 
 ---
 
+## 📦 Deployment
+
+This project is designed for enterprise‑grade scalability and reliability.
+
+- **Local Setup:** Run with `docker-compose up` for quick testing.
+- **Cloud Deployment:** Deployed seamlessly on **Render** → [Live Demo](https://ai-finance-ui.onrender.com)
+- **CI/CD Pipeline:** Integrated with **GitHub Actions** for continuous testing and deployment.
+- **Monitoring:** Render’s built‑in metrics + external dashboards for performance tracking.
+- **Impact:** Reduced deployment overhead and ensured reliable uptime for financial risk intelligence workloads.
+
+---
+
 ## 📸 Visualizing the Intelligence
 
 ![Project Dashboard](images/AI-Finance_Dashboard.png)
