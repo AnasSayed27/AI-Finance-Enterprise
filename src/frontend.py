@@ -6,7 +6,7 @@ import os
 API_HOST = os.getenv("API_HOST")
 
 if API_HOST:
-    API_URL = f"https://{API_HOST}/predict-credit-risk"
+    API_URL = f"http://{API_HOST}/predict-credit-risk"
 else:
     API_URL = "http://127.0.0.1:8000/predict-credit-risk"
 

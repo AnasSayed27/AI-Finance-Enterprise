@@ -1,5 +1,4 @@
 services:
-  # 1. The Backend API
   - type: web
     name: ai-finance-api
     env: docker
@@ -9,7 +8,6 @@ services:
     region: singapore
     healthCheckPath: /health
 
-  # 2. The Frontend UI
   - type: web
     name: ai-finance-ui
     env: docker
