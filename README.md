@@ -60,7 +60,7 @@ This project is designed for enterprise‑grade scalability and reliability.
 
 ## 📸 Visualizing the Intelligence
 
-![Project Dashboard](images/AI-Finance_Dashboard.png)
+![Project Dashboard](images/CreditRisk.gif)
 
 ![Nifty Features](images/cd521fed-4f91-4d9c-b202-0b480a6150ad.png)
 
