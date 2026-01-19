@@ -2,6 +2,16 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 import joblib
 import pandas as pd
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "credit_risk_pipeline.joblib")
+
+try:
+    model_pipeline = joblib.load(MODEL_PATH)
+except Exception as e:
+    model_pipeline = None
+    print(f"FAILED TO LOAD MODEL AT {MODEL_PATH}: {e}")
 
 app = FastAPI(title="Bank of Mumbai: AI Credit Engine (Parsimonious V3)")
 
