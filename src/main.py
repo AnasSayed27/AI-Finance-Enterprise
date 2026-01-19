@@ -22,11 +22,6 @@ class LoanApplicant(BaseModel):
     person_home_ownership: str = Field(..., description="Your housing status: 'RENT', 'OWN', or 'MORTGAGE'", example="OWN")
     cb_person_default_on_file: str = Field(..., description="Have you ever defaulted before? 'Y' or 'N'", example="N")
 
-try:
-    model_pipeline = joblib.load("credit_risk_pipeline.joblib")
-except:
-    model_pipeline = None
-
 @app.get("/health")
 def health_check():
     return {"status": "Server is Live", "model_loaded": model_pipeline is not None}
