@@ -93,4 +93,4 @@ This system is containerized for instant deployment. Ensure you have **Docker De
 Focused on the intersection of Quantitative Finance and Scalable AI Infrastructure.
 This project represents a commitment to building transparent, robust, and economically sound financial technology.  
 
-**Connect with me:** [LinkedIn](https://www.linkedin.com/in/soberhuman/) | [Portfolio](https://anassayed27.github.io/)
+**Connect with me:** [LinkedIn](https://www.linkedin.com/in/anassayed27/) | [Portfolio](https://anassayed27.github.io/)
